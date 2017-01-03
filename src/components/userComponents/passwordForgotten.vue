@@ -5,7 +5,6 @@
 		<form action="">
 			<label for="#forgot-password-input"></label>
 			<input type="text" id="forgot-password-input">
-
 		</form>
 	</div>
 </div>
@@ -22,4 +21,5 @@
 </script>
 
 <style lang="sass" scoped>
+
 </style>

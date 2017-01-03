@@ -18,18 +18,5 @@
 </script>
 
 <style lang="sass" scoped>
-	.panel
-		top: 50%
-		left: 50%
-		transform: translate(-50%, -50%);
-		height: auto
-		width: 100%
-		padding: 30px
-		max-width: 800px
-		background: #fff
-		border-radius: 7px
-		position: absolute
-		p 
-			line-height: 1.5rem
-			font-size: 1.05rem
+	
 </style>

@@ -10,9 +10,11 @@ All notable changes to this project will be documented in this file.
 - User Profile component
 - Relevant component CSS
 - Sass dir with global Sass variables
+- Added close loginForm functionality
 
 ### Changed
 - Moved Header to App.vue for global use
+- Updated CSS
 
 ### Removed
 

@@ -1,8 +1,14 @@
-<template>
+<template v-cloak>
+<div class="root-component-wrap">
+  <div v-if="show" class="panel small-panel">
+    <p>Are you sure?</p>
+    <button @click="redirect">Yes</button>
+    <button>No</button>
+  </div>
 	<div id="login-form" class="card-cont">
     <div class="form-inner">
       <div class="form-head">
-        <div class="cross-x">
+        <div @click="toggleLeaveFormState" class="cross-x">
           <svg width="100%" height="100%" viewBox="0 0 22 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
             <g transform="matrix(0.777014,0,0,0.777014,-922.517,-186.157)">
                 <g transform="matrix(0.529032,0.587118,-0.588247,0.530049,1244.79,-78.6969)">
@@ -40,6 +46,7 @@
       </form>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -47,7 +54,21 @@ export default {
   name: 'LoginForm',
   data () {
     return {
-      msg: 'Login Form Route'
+      msg: 'Login Form Route',
+      show: false
+    }
+  },
+  methods: {
+    toggleLeaveFormState: function () {
+      // Toggle show status
+      this.show = !this.show
+    },
+    redirect: function () {
+      /*
+       * Attach to instance of router, then
+       * push path into history obj and re-direct
+      */
+      this.$router.push('/')
     }
   }
 }

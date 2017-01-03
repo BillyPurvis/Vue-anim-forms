@@ -58,6 +58,8 @@ header
   -moz-osx-font-smoothing: grayscale
   text-align: center
   color: #2c3e50
+.page-title
+  color: #fff
 .cont 
   width: 100%
   height: 100vh
