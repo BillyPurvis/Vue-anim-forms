@@ -19,7 +19,7 @@ let router = new VueRouter({
   mode: 'history',
   base: __dirname,
   routes: [
-    { path: '/', component: Home },
+    { path: '/', component: Home, name: 'Home' },
     { path: '/login', component: LoginForm },
     { path: '/sign-up', component: SignUpForm },
     { path: '/profile', component: userProfile },
