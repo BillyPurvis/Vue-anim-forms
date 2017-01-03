@@ -1,6 +1,21 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [0.0.3] - [Unreleased] - 03-01-2017 
+
+### Added 
+- Forgotten Password input
+- LoginForm component
+- Sign Up Form component
+- User Profile component
+- Relevant component CSS
+- Sass dir with global Sass variables
+
+### Changed
+- Moved Header to App.vue for global use
+
+### Removed
+
 ## [0.0.3] - [Unreleased] - 02-01-2017 
 
 ### Added
@@ -18,3 +33,9 @@ All notable changes to this project will be documented in this file.
 - Removed Foo.vue
 - Removed Hello.vue 
 - Removed Home.vue
+
+
+
+07593275916
+gail.2008@live.co.uk
+

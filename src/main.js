@@ -15,7 +15,7 @@ import userProfile from './components/userComponents/userProfile'
 import passwordForgotten from './components/userComponents/passwordForgotten'
 
 // Create insance of router and define routes
-let router = new VueRouter({
+const router = new VueRouter({
   mode: 'history',
   base: __dirname,
   routes: [

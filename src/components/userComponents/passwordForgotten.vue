@@ -1,19 +1,25 @@
 <template>
-	<h1> {{ msg }} </h1>
+<div class="cont">
+	<div class="panel">
+		<h2>Forgotten Password</h2>
+		<form action="">
+			<label for="#forgot-password-input"></label>
+			<input type="text" id="forgot-password-input">
+
+		</form>
+	</div>
+</div>
 </template>
 
 <script>
-export default {
-  name: 'passwordForgotten',
-  data () {
-    return {
-      msg: 'passwordForgotten Form Route'
-    }
-  }
-}
+	export default {
+	  name: 'home',
+	  data () {
+	    return {
+	    }
+	  }
+	}
 </script>
 
-<!-- Keep CSS limited to this component only -->
-<style scoped>
-  
+<style lang="sass" scoped>
 </style>
