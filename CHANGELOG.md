@@ -37,7 +37,3 @@ All notable changes to this project will be documented in this file.
 - Removed Home.vue
 
 
-
-07593275916
-gail.2008@live.co.uk
-
