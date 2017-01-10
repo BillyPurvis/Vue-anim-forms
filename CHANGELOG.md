@@ -1,5 +1,17 @@
 # Change Log
 All notable changes to this project will be documented in this file.
+
+## [0.0.5] - [Unreleased] - 09-01-2017 
+
+### Added
+- components/alertComponents dir
+
+### Changed
+- renamed LoginForm component to app-login-form
+- renamed signUpForm component to app-signup-form
+- renamed userProfile component to app-user-profile
+- renamed passwordForgotten component to app-reset-password
+
 ## [0.0.4] - [Unreleased] - 09-01-2017 
 
 ### Added
