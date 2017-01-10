@@ -3,7 +3,7 @@
   <div v-if="show" class="panel small-panel">
     <p>Are you sure?</p>
     <button @click="redirect">Yes</button>
-    <button>No</button>
+    <button @click="toggleLeaveFormState">No</button>
   </div>
 	<div id="login-form" class="card-cont">
     <div class="form-inner">

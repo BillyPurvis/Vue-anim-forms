@@ -1,5 +1,12 @@
 # Change Log
 All notable changes to this project will be documented in this file.
+## [0.0.4] - [Unreleased] - 09-01-2017 
+
+### Added
+- src/routes.js file to import route components and store routes
+
+### Changed
+- Moved routes and component imports to src/routes.js
 
 ## [0.0.3] - [Unreleased] - 03-01-2017 
 

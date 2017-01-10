@@ -1,56 +1,60 @@
-# Vue Animated Forms
+# Freshleaf PDS_To_Web_Test
 ---
 
-A small fluid animation login form, sign up form and user profile creation project. Rather than being re-directed and reloading entire pages, Vue Animated Forms makes use of vue-router and vue to create an easy to use, user account forms. 
+Creating a 'pixel perfect', fully responsive page using no libraries, excluding font-awesome CDN. 
 
-You can also:
-  - Fluidly switch between login and sign up forms for a fast sign up process
-  - Create a user profile on the fly with a preview
+We're using jQuery for browser compatibilty, we're also using section, nav, header tags for semantic reasons. 
+We're following a slightly verbose naming convention, but for ease of use when multiple developers are working on it, abrrivations are worth the future costs of confusion and project delays. 
+
+We're using partials to keep things seperate and faster to edit without confusion where a selctor is on a 
+long stylesheet.
+
+We've used text-transform instead of hardcoding capitals as some screen readers will read out character by character, or at a louder volume - done for accessiblity reasons. 
+
+Mobile first for faster development and less verbose CSS
+
+'header-top-row' is removed for viewports under 1024 otherwise i'd be bunched up and icons too small to click. Contact information is repeated elsewhere, so it's not detrimental to UX to remove this and re-add at 1024px
 
 # Getting Started
 ---
-These instructions will get you up to speed with how to get the project up and running on your machine. Alternatively, you can see the demo here on initial release.
+These instructions will get you up to speed with how to get the project up and running on your machine. 
 
 ### Prerequisites
 ---
 
-Vue Animated Forms uses a number of open source projects to work properly:
+* Chrome Browser for ES6
+* Webserver if desired, not fully required
+* Koala to compile Sass if altered
 
-* [Vue.js](https://vuejs.org/) - Component based construction!
-* [Sass/Scss](http://sass-lang.com/) - Make CSS clean again! 
-* [VueRouter](https://github.com/vuejs/vue-router) - Official Vue Routing package!
-* [Vue-Cli](https://github.com/vuejs/vue-cli) - Awesome templating with webpack!
 
 ### Installation
-A simple installation to get the dev env running. CD into your chosen directory, then run: 
+
+Unzip, open index.html. Alternatively, use WAMP/MAMP, create a virtual host, unzip file and move into desired directory. Reload DNS.
+
+### How it goes
+
+A simple folder structure: 
 
 ```
-$ git clone https://github.com/BillyPurvis/Vue-anim-forms/
-```
-For a successful deployed state, for developement stage, checkout the develop branch.
-
-Dillinger requires [Node.js](https://nodejs.org/) v3+ to run.
-
-Install the dependencies and devDependencies and start the server.
-
-### Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
+├── CHANGELOG.md
+├── README.md
+├── assets
+│   ├── images
+│   ├── sass
+│   │   ├── _footer.sass
+│   │   ├── _header.sass
+│   │   ├── _home.sass
+│   │   ├── _ui.sass
+│   │   └── _fonts.sass
+│   └── scripts
+│       └── main.js
+├── index.html
+├── main.css
+├── main.css.map
+└── main.sass
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-### Development
-
-Want to contribute? Great!
 
 License
 ----
